@@ -38,11 +38,11 @@ export type SiteConfig = {
 };
 
 const siteConfig: SiteConfig = {
-    title: 'Dante',
-    subtitle: 'Minimal Astro.js theme',
-    description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
+    title: 'Roshan Sivakumar',
+    subtitle: 'Electronics and Firmware Engineer, with a passion for MedTech, Defense technologies, and Robots',
+    description: '',
     image: {
-        src: '/dante-preview.jpg',
+        src: '/hero',
         alt: 'Dante - Astro.js and Tailwind CSS theme'
     },
     headerNavLinks: [
@@ -61,6 +61,10 @@ const siteConfig: SiteConfig = {
         {
             text: 'Tags',
             href: '/tags'
+        },
+        {
+            text: 'About Me',
+            href: '/aboutme'
         }
     ],
     footerNavLinks: [
@@ -96,10 +100,10 @@ const siteConfig: SiteConfig = {
         }
     ],
     hero: {
-        title: 'Hi There & Welcome to My Corner of the Web!',
-        text: "I'm **Ethan Donovan**, a web developer at Amazing Studio, dedicated to the realms of collaboration and artificial intelligence. My approach involves embracing intuition, conducting just enough research, and leveraging aesthetics as a catalyst for exceptional products. I have a profound appreciation for top-notch software, visual design, and the principles of product-led growth. Feel free to explore some of my coding endeavors on <a href='https://github.com/JustGoodUI/dante-astro-theme'>GitHub</a> or follow me on <a href='https://twitter.com/justgoodui'>Twitter/X</a>.",
+        title: '',
+        text: "I'm **Roshan Sivakumar**, an engineer, traveller, and athlete",
         image: {
-            src: '/hero.jpeg',
+            src: '/hero.png',
             alt: 'A person sitting at a desk in front of a computer'
         },
         actions: [
@@ -114,8 +118,8 @@ const siteConfig: SiteConfig = {
         text: 'One update per week. All the latest posts directly in your inbox.',
         formUrl: '#'
     },
-    postsPerPage: 8,
-    projectsPerPage: 8
+    postsPerPage: 10,
+    projectsPerPage: 10
 };
 
 export default siteConfig;
